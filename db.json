@@ -1,14 +1,93 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+  "rejestr_reklamacji": [
+    {
+      "id": "3",
+      "nr_karty": "1/2019",
+      "data": "2019-02-07",
+      "id_urzadzenia": "0",
+      "nazwa_wlasna_urzadzenia": "Okap",
+      "id_zglaszajacego": "15065",
+      "uzytkownik": "a:8:{s:5:\"nazwa\";s:4:\"Test\";s:8:\"nazwisko\";s:4:\"Test\";s:4:\"imie\";s:4:\"Test\";s:5:\"ulica\";s:4:\"Test\";s:7:\"nr_domu\";s:4:\"Test\";s:6:\"miasto\";s:4:\"Test\";s:3:\"kod\";s:4:\"Test\";s:3:\"tel\";s:3:\"111\";}",
+      "id_faktury": "106862",
+      "id_serwisu": "166",
+      "rodzaj_naprawy": "2",
+      "opis_usterki": "0x3c703e546573743c2f703e",
+      "nr_zlecenia": "1",
+      "nr_karty_naprawy": "1",
+      "id_usterki_rzeczywistej": "4",
+      "data_zakonczenia": "2019-02-08",
+      "dane_reczne": ""
+    },
+    {
+      "id": "4",
+      "nr_karty": "2/2019",
+      "data": "2019-02-08",
+      "id_urzadzenia": "235621",
+      "nazwa_wlasna_urzadzenia": "Szafa",
+      "id_zglaszajacego": "709",
+      "uzytkownik": "a:8:{s:5:\"nazwa\";s:8:\"aaadsasd\";s:8:\"nazwisko\";s:4:\"sdsd\";s:4:\"imie\";s:4:\"sdfw\";s:5:\"ulica\";s:4:\"wedw\";s:7:\"nr_domu\";s:5:\"sefwe\";s:6:\"miasto\";s:5:\"wefwe\";s:3:\"kod\";s:4:\"sefw\";s:3:\"tel\";s:5:\"sefwe\";}",
+      "id_faktury": "85178",
+      "id_serwisu": "162",
+      "rodzaj_naprawy": "2",
+      "opis_usterki": "0x3c703e7364776577656477653c2f703e",
+      "nr_zlecenia": "2",
+      "nr_karty_naprawy": "2",
+      "id_usterki_rzeczywistej": "4",
+      "data_zakonczenia": "2019-02-08",
+      "dane_reczne": ""
+    },
+    {
+      "id": "5",
+      "nr_karty": "3/2019",
+      "data": "2019-02-08",
+      "id_urzadzenia": "235806",
+      "nazwa_wlasna_urzadzenia": "Schładzarka",
+      "id_zglaszajacego": "15388",
+      "uzytkownik": "a:8:{s:5:\"nazwa\";s:16:\"Przedszkole nr 3\";s:8:\"nazwisko\";s:4:\"Anna\";s:4:\"imie\";s:8:\"Kowalska\";s:5:\"ulica\";s:11:\"Mickiewicza\";s:7:\"nr_domu\";s:1:\"1\";s:6:\"miasto\";s:7:\"Kraków\";s:3:\"kod\";s:6:\"00-001\";s:3:\"tel\";s:11:\"111-222-333\";}",
+      "id_faktury": "87156",
+      "id_serwisu": "158",
+      "rodzaj_naprawy": "2",
+      "opis_usterki": "0x3c703e6571647773613c2f703e",
+      "nr_zlecenia": "3",
+      "nr_karty_naprawy": "3",
+      "id_usterki_rzeczywistej": "15",
+      "data_zakonczenia": "2019-02-09",
+      "dane_reczne": ""
+    },
+    {
+      "id": "6",
+      "nr_karty": "4/2019",
+      "data": "2019-02-09",
+      "id_urzadzenia": "196660",
+      "nazwa_wlasna_urzadzenia": "",
+      "id_zglaszajacego": "460",
+      "uzytkownik": "a:8:{s:5:\"nazwa\";s:4:\"test\";s:8:\"nazwisko\";s:4:\"test\";s:4:\"imie\";s:4:\"test\";s:5:\"ulica\";s:4:\"test\";s:7:\"nr_domu\";s:4:\"test\";s:6:\"miasto\";s:4:\"tets\";s:3:\"kod\";s:4:\"test\";s:3:\"tel\";s:4:\"test\";}",
+      "id_faktury": "70492",
+      "id_serwisu": "154",
+      "rodzaj_naprawy": "1",
+      "opis_usterki": "0x3c703e66776564773c2f703e",
+      "nr_zlecenia": "4",
+      "nr_karty_naprawy": "0",
+      "id_usterki_rzeczywistej": "8",
+      "data_zakonczenia": "2019-02-09",
+      "dane_reczne": ""
+    },
+    {
+      "id": "7",
+      "nr_karty": "5/2019",
+      "data": "2019-02-11",
+      "id_urzadzenia": "303186",
+      "nazwa_wlasna_urzadzenia": "szafa",
+      "id_zglaszajacego": "15065",
+      "uzytkownik": "a:8:{s:5:\"nazwa\";s:6:\"qefqwe\";s:8:\"nazwisko\";s:6:\"hjgjhg\";s:4:\"imie\";s:5:\"hjgjh\";s:5:\"ulica\";s:5:\"hjgjh\";s:7:\"nr_domu\";s:5:\"hjgjh\";s:6:\"miasto\";s:5:\"hjgjh\";s:3:\"kod\";s:5:\"hjgjh\";s:3:\"tel\";s:4:\"hjgj\";}",
+      "id_faktury": "106862",
+      "id_serwisu": "165",
+      "rodzaj_naprawy": "1",
+      "opis_usterki": "0x3c703e737266776566723c2f703e",
+      "nr_zlecenia": "34",
+      "nr_karty_naprawy": "0",
+      "id_usterki_rzeczywistej": "0",
+      "data_zakonczenia": "0000-00-00",
+      "dane_reczne": ""
+    }
+  ]
